@@ -18,7 +18,6 @@ function convertToRoman(num) {
   ];
 
   let result = '';
-
   for (let [symbol, value] of romanMap) {
     while (num >= value) {
       result += symbol;
@@ -29,7 +28,6 @@ function convertToRoman(num) {
   return result;
 }
 
-// Examples:
-console.log(convertToRoman(14));   // Output: XIV
-console.log(convertToRoman(798));  // Output: DCCXCVIII
-console.log(convertToRoman(3999)); // Output: MMMCMXCIX
+module.exports = convertToRoman;
+console.log(789)
+console.log
